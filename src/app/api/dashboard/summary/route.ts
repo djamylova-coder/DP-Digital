@@ -1,0 +1,2 @@
+import {NextResponse} from 'next/server';import {prisma} from '@/lib/prisma';import {requireAdmin} from '@/lib/api-auth';
+export async function GET(){const a=await requireAdmin();if(a.response)return a.response;const start=new Date();start.setHours(0,0,0,0);const rows=await prisma.commande.groupBy({by:['etat'],where:{dateCreation:{gte:start}} ,_count:true});const out:any={attente_paiement:0,attente_ussd:0,en_cours:0,termine:0,echec:0,traitement_manuel:0};rows.forEach(r=>out[r.etat]=r._count);return NextResponse.json(out)}

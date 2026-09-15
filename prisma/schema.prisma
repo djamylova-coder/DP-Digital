@@ -1,0 +1,197 @@
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+enum Famille {
+  administrateur
+  utilisateur
+  serveur
+}
+
+enum StatutAppareil {
+  disponible
+  occupe
+  hors_ligne
+}
+
+enum StatutVerification {
+  verifie
+  a_tester
+}
+
+enum EtatCommande {
+  attente_paiement
+  attente_ussd
+  en_cours
+  termine
+  echec
+  traitement_manuel
+}
+
+enum ResultatExecution {
+  success
+  failure
+  unknown
+}
+
+enum DecisionManuelle {
+  EXECUTED_MANUALLY
+  REFUNDED
+}
+
+model Compte {
+  id                    String      @id @default(cuid())
+  famille               Famille
+  codeHache             String
+  actif                 Boolean     @default(true)
+  dateCreation          DateTime    @default(now())
+  dateDerniereConnexion DateTime?
+  sessions              Session[]
+  appareils             Appareil[]
+  commandes             Commande[]
+  audits                Audit[]
+}
+
+model Session {
+  id             String   @id @default(cuid())
+  compteId       String
+  jeton          String   @unique
+  dateCreation   DateTime @default(now())
+  dateExpiration DateTime
+  dateRevocation DateTime?
+  compte         Compte   @relation(fields: [compteId], references: [id], onDelete: Cascade)
+
+  @@index([compteId, dateExpiration, dateRevocation])
+}
+
+model Appareil {
+  id               String          @id @default(cuid())
+  nom              String
+  operateur        String
+  statut           StatutAppareil  @default(hors_ligne)
+  derniereActivite DateTime?
+  secretHache      String?         @unique
+  actif            Boolean         @default(true)
+  compteId         String?
+  compte           Compte?        @relation(fields: [compteId], references: [id])
+  commandes        Commande[]
+
+  @@index([operateur, statut])
+}
+
+model MarchandWave {
+  id            String             @id @default(cuid())
+  nom           String
+  reference     String             @unique
+  actif         Boolean            @default(true)
+  notifications NotificationWave[]
+}
+
+model Forfait {
+  id                  String              @id @default(cuid())
+  operateur           String
+  categorie           String
+  nom                 String
+  prixFcfa            Int
+  validite            String?
+  typeSyntaxe         String
+  syntaxe             String
+  statutVerification  StatutVerification @default(a_tester)
+  actif               Boolean             @default(true)
+  dateModification    DateTime            @updatedAt
+  commandes           Commande[]
+
+  @@index([operateur, categorie, actif])
+  @@unique([operateur, categorie, nom, prixFcfa])
+}
+
+model Commande {
+  id                       String              @id @default(cuid())
+  reference                String              @unique
+  cleIdempotence           String              @unique
+  operateur                String
+  numeroMasque             String
+  numeroChiffre            String?
+  forfaitId                String
+  montantFcfa              Int
+  etat                     EtatCommande        @default(attente_paiement)
+  failureCode              String?
+  resultatUssd              String?
+  dateCreation             DateTime            @default(now())
+  dateExecution            DateTime?
+  dateDerniereMaj          DateTime            @updatedAt
+  resultatExecution        ResultatExecution?
+  decisionManuelle         DecisionManuelle?
+  attemptCount             Int                 @default(0)
+  verificationAttemptCount Int                 @default(0)
+  leaseToken               String?             @unique
+  leaseExpiresAt            DateTime?
+  executionStartedAt       DateTime?
+  compteId                 String?
+  appareilId               String?
+  forfait                  Forfait             @relation(fields: [forfaitId], references: [id])
+  compte                   Compte?             @relation(fields: [compteId], references: [id])
+  appareil                 Appareil?           @relation(fields: [appareilId], references: [id])
+  notifications            NotificationWave[]
+  audits                   Audit[]
+
+  @@index([etat, dateCreation])
+  @@index([appareilId, etat])
+  @@index([appareilId, leaseExpiresAt])
+  @@index([etat, resultatExecution])
+}
+
+model NotificationWave {
+  id                  String         @id @default(cuid())
+  identifiantExterne  String         @unique
+  reference           String
+  montantFcfa         Int
+  dateReception       DateTime       @default(now())
+  rapprochee          Boolean        @default(false)
+  commandeId          String?
+  marchandId          String?
+  commande            Commande?      @relation(fields: [commandeId], references: [id])
+  marchand            MarchandWave?  @relation(fields: [marchandId], references: [id])
+
+  @@index([rapprochee, dateReception])
+}
+
+model AuthRateLimit {
+  id            String   @id @default(cuid())
+  cle           String   @unique
+  fenetreDebut  DateTime @default(now())
+  tentatives    Int      @default(0)
+  bloqueJusqu   DateTime?
+
+  @@index([bloqueJusqu])
+}
+
+model BackupRun {
+  id        String   @id @default(cuid())
+  statut    String
+  type      String
+  dateDebut DateTime @default(now())
+  dateFin   DateTime?
+  details   String?
+
+  @@index([dateDebut])
+}
+
+model Audit {
+  id           String     @id @default(cuid())
+  compteId     String?
+  commandeId   String?
+  action       String
+  details      String?
+  dateCreation DateTime   @default(now())
+  compte       Compte?    @relation(fields: [compteId], references: [id])
+  commande     Commande?  @relation(fields: [commandeId], references: [id])
+
+  @@index([dateCreation])
+}

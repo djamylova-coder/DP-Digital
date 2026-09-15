@@ -1,0 +1,1 @@
+-- Superseded by the complete initial schema migration. Kept for migration-history compatibility.

@@ -1,0 +1,1869 @@
+[
+  {
+    "operateur": "orange",
+    "categorie": "catalogue_fichier",
+    "nom": "200 FCFA — 1 jour — 17 min",
+    "prix_fcfa": 200,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "#161*{numero}*2*1*1*5522#"
+  },
+  {
+    "operateur": "orange",
+    "categorie": "catalogue_fichier",
+    "nom": "300 FCFA — 2 jours — 30 min TR + 100 Mo",
+    "prix_fcfa": 300,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "#161*{numero}*2*1*2*5522#"
+  },
+  {
+    "operateur": "orange",
+    "categorie": "catalogue_fichier",
+    "nom": "400 FCFA — 3 jours — 50 min TR + 100 Mo",
+    "prix_fcfa": 400,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "#161*{numero}*2*1*3*5522#"
+  },
+  {
+    "operateur": "orange",
+    "categorie": "catalogue_fichier",
+    "nom": "500 FCFA — 5 jours — 55 min + 300 SMS + 300 Mo",
+    "prix_fcfa": 500,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "#161*{numero}*2*2*1*5522#"
+  },
+  {
+    "operateur": "orange",
+    "categorie": "catalogue_fichier",
+    "nom": "1 000 FCFA — 7 jours — 100 min + 1 Go + illimité + 150 Mo",
+    "prix_fcfa": 1000,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "#161*{numero}*2*2*3*5522#"
+  },
+  {
+    "operateur": "orange",
+    "categorie": "catalogue_fichier",
+    "nom": "1 500 FCFA — 7 jours — 200 min TR + 1 500 Mo + 300 SMS + illimité + 150 Mo",
+    "prix_fcfa": 1500,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "#161*{numero}*2*2*5*5522#"
+  },
+  {
+    "operateur": "orange",
+    "categorie": "catalogue_fichier",
+    "nom": "3 000 FCFA — 1 mois — 250 min + 2,5 Go + 500 SMS + illimité + 500 Mo",
+    "prix_fcfa": 3000,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "#161*{numero}*2*3*1*5522#"
+  },
+  {
+    "operateur": "orange",
+    "categorie": "catalogue_fichier",
+    "nom": "5 000 FCFA — 1 mois — 400 min + 5 Go + 500 SMS + illimité + 500 Mo",
+    "prix_fcfa": 5000,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "#161*{numero}*2*3*2*5522#"
+  },
+  {
+    "operateur": "orange",
+    "categorie": "catalogue_fichier",
+    "nom": "10 000 FCFA — 1 mois — 500 min + 10 Go + 500 SMS + illimité + 500 Mo",
+    "prix_fcfa": 10000,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "#161*{numero}*2*3*3*5522#"
+  },
+  {
+    "operateur": "orange",
+    "categorie": "catalogue_fichier",
+    "nom": "20 000 FCFA — 1 mois — 1 200 min + 20 Go + 500 SMS + illimité + 500 Mo",
+    "prix_fcfa": 20000,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "#161*{numero}*2*3*4*5522#"
+  },
+  {
+    "operateur": "orange",
+    "categorie": "catalogue_fichier",
+    "nom": "300 FCFA — Pass Social",
+    "prix_fcfa": 300,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "#161*{numero}*3*1*1*5522#"
+  },
+  {
+    "operateur": "orange",
+    "categorie": "catalogue_fichier",
+    "nom": "300 FCFA — Pass Social TikTok",
+    "prix_fcfa": 300,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "#161*{numero}*3*1*2*5522#"
+  },
+  {
+    "operateur": "orange",
+    "categorie": "catalogue_fichier",
+    "nom": "500 FCFA — Pass Social",
+    "prix_fcfa": 500,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "#161*{numero}*3*1*3*5522#"
+  },
+  {
+    "operateur": "orange",
+    "categorie": "catalogue_fichier",
+    "nom": "200 FCFA — 200 Mo — 2 jours",
+    "prix_fcfa": 200,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "#161*{numero}*3*2*1*5522#"
+  },
+  {
+    "operateur": "orange",
+    "categorie": "catalogue_fichier",
+    "nom": "300 FCFA — 400 Mo — 2 jours",
+    "prix_fcfa": 300,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "#161*{numero}*3*2*2*5522#"
+  },
+  {
+    "operateur": "orange",
+    "categorie": "catalogue_fichier",
+    "nom": "400 FCFA — 340 Mo — 3 jours",
+    "prix_fcfa": 400,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "#161*{numero}*3*2*4*5522#"
+  },
+  {
+    "operateur": "orange",
+    "categorie": "catalogue_fichier",
+    "nom": "500 FCFA — 750 Mo — 3 jours",
+    "prix_fcfa": 500,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "#161*{numero}*3*2*5*5522#"
+  },
+  {
+    "operateur": "orange",
+    "categorie": "catalogue_fichier",
+    "nom": "500 FCFA — Pass spécial 1,5 Go — 3 jours",
+    "prix_fcfa": 500,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "#161*{numero}*3*2*6*5522#"
+  },
+  {
+    "operateur": "orange",
+    "categorie": "catalogue_fichier",
+    "nom": "500 FCFA — Pass Megawin 1 Go — durée à confirmer",
+    "prix_fcfa": 500,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "#161*{numero}*3*2*7*5522#"
+  },
+  {
+    "operateur": "orange",
+    "categorie": "catalogue_fichier",
+    "nom": "800 FCFA — 750 Mo — 7 jours",
+    "prix_fcfa": 800,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "#161*{numero}*3*3*1*5522#"
+  },
+  {
+    "operateur": "orange",
+    "categorie": "catalogue_fichier",
+    "nom": "1 000 FCFA — 1,5 Go + 150 Mo — 5 jours",
+    "prix_fcfa": 1000,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "#161*{numero}*3*3*2*5522#"
+  },
+  {
+    "operateur": "orange",
+    "categorie": "catalogue_fichier",
+    "nom": "1 500 FCFA — 2,5 Go + 150 Mo — 7 jours",
+    "prix_fcfa": 1500,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "#161*{numero}*3*3*4*5522#"
+  },
+  {
+    "operateur": "orange",
+    "categorie": "catalogue_fichier",
+    "nom": "2 500 FCFA — 3,5 Go + 500 Mo — 1 mois",
+    "prix_fcfa": 2500,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "#161*{numero}*3*4*1*5522#"
+  },
+  {
+    "operateur": "orange",
+    "categorie": "catalogue_fichier",
+    "nom": "3 000 FCFA — 2,7 Go — 1 mois",
+    "prix_fcfa": 3000,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "#161*{numero}*3*4*2*5522#"
+  },
+  {
+    "operateur": "orange",
+    "categorie": "catalogue_fichier",
+    "nom": "5 000 FCFA — 7,2 Go + 500 Mo — 1 mois",
+    "prix_fcfa": 5000,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "#161*{numero}*3*4*3*5522#"
+  },
+  {
+    "operateur": "orange",
+    "categorie": "catalogue_fichier",
+    "nom": "10 000 FCFA — 18 Go + 500 Mo — 1 mois",
+    "prix_fcfa": 10000,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "#161*{numero}*3*4*4*5522#"
+  },
+  {
+    "operateur": "orange",
+    "categorie": "catalogue_fichier",
+    "nom": "20 000 FCFA — 40 Go + 500 Mo — 1 mois",
+    "prix_fcfa": 20000,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "#161*{numero}*3*4*5*5522#"
+  },
+  {
+    "operateur": "orange",
+    "categorie": "catalogue_fichier",
+    "nom": "100 FCFA — 50 SMS",
+    "prix_fcfa": 100,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "#161*{numero}*7*1*5522#"
+  },
+  {
+    "operateur": "orange",
+    "categorie": "catalogue_fichier",
+    "nom": "150 FCFA — 150 SMS",
+    "prix_fcfa": 150,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "#161*{numero}*7*2*5522#"
+  },
+  {
+    "operateur": "orange",
+    "categorie": "catalogue_fichier",
+    "nom": "300 FCFA — 320 SMS",
+    "prix_fcfa": 300,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "#161*{numero}*7*3*5522#"
+  },
+  {
+    "operateur": "moov",
+    "categorie": "catalogue_fichier",
+    "nom": "650 Mo — 1 jour — 200 FCFA",
+    "prix_fcfa": 200,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "*412*4*{numero}*2*1*1*35427#"
+  },
+  {
+    "operateur": "moov",
+    "categorie": "catalogue_fichier",
+    "nom": "900 Mo — 1 jour — 300 FCFA",
+    "prix_fcfa": 300,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "*412*4*{numero}*2*2*1*35427#"
+  },
+  {
+    "operateur": "moov",
+    "categorie": "catalogue_fichier",
+    "nom": "1,5 Go — 3 jours — 500 FCFA",
+    "prix_fcfa": 500,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "*412*4*{numero}*2*3*1*35427#"
+  },
+  {
+    "operateur": "moov",
+    "categorie": "catalogue_fichier",
+    "nom": "4 Go — 7 jours — 1 000 FCFA",
+    "prix_fcfa": 1000,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "*412*4*{numero}*2*4*1*35427#"
+  },
+  {
+    "operateur": "moov",
+    "categorie": "catalogue_fichier",
+    "nom": "6 Go — 10 jours — 1 500 FCFA",
+    "prix_fcfa": 1500,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "*412*4*{numero}*2*5*1*35427#"
+  },
+  {
+    "operateur": "moov",
+    "categorie": "catalogue_fichier",
+    "nom": "10 Go — 15 jours — 2 500 FCFA",
+    "prix_fcfa": 2500,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "*412*4*{numero}*2*6*1*35427#"
+  },
+  {
+    "operateur": "moov",
+    "categorie": "catalogue_fichier",
+    "nom": "30 min + 2 Go — 21H-07H — 200 FCFA",
+    "prix_fcfa": 200,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "*412*4*{numero}*3*1*1*35427#"
+  },
+  {
+    "operateur": "moov",
+    "categorie": "catalogue_fichier",
+    "nom": "60 min + 1 GB — 2 jours — 500 FCFA",
+    "prix_fcfa": 500,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "*412*4*{numero}*3*2*1*35427#"
+  },
+  {
+    "operateur": "moov",
+    "categorie": "catalogue_fichier",
+    "nom": "1 H + 1,5 Go — 5 jours — 700 FCFA",
+    "prix_fcfa": 700,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "*412*4*{numero}*3*3*1*35427#"
+  },
+  {
+    "operateur": "moov",
+    "categorie": "catalogue_fichier",
+    "nom": "120 min + 2,5 Go — 1 000 FCFA — validité à confirmer",
+    "prix_fcfa": 1000,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "*412*4*{numero}*3*4*1*35427#"
+  },
+  {
+    "operateur": "moov",
+    "categorie": "catalogue_fichier",
+    "nom": "12 min — 1 jour — 150 FCFA",
+    "prix_fcfa": 150,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "*412*4*{numero}*1*1*1*35427#"
+  },
+  {
+    "operateur": "moov",
+    "categorie": "catalogue_fichier",
+    "nom": "20 min — 2 jours — 200 FCFA",
+    "prix_fcfa": 200,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "*412*4*{numero}*1*2*1*35427#"
+  },
+  {
+    "operateur": "moov",
+    "categorie": "catalogue_fichier",
+    "nom": "35 min — 2 jours — 300 FCFA",
+    "prix_fcfa": 300,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "*412*4*{numero}*1*3*1*35427#"
+  },
+  {
+    "operateur": "moov",
+    "categorie": "catalogue_fichier",
+    "nom": "120 min — 5 jours — 500 FCFA",
+    "prix_fcfa": 500,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "*412*4*{numero}*1*4*1*35427#"
+  },
+  {
+    "operateur": "moov",
+    "categorie": "catalogue_fichier",
+    "nom": "140 min — 10 jours — 1 000 FCFA",
+    "prix_fcfa": 1000,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "*412*4*{numero}*1*5*1*35427#"
+  },
+  {
+    "operateur": "moov",
+    "categorie": "catalogue_fichier",
+    "nom": "210 min — 15 jours — 1 500 FCFA",
+    "prix_fcfa": 1500,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "*412*4*{numero}*1*6*1*35427#"
+  },
+  {
+    "operateur": "moov",
+    "categorie": "catalogue_fichier",
+    "nom": "350 min — 30 jours — 2 500 FCFA",
+    "prix_fcfa": 2500,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "*412*4*{numero}*1*7*1*35427#"
+  },
+  {
+    "operateur": "moov",
+    "categorie": "catalogue_fichier",
+    "nom": "700 min — 30 jours — 5 000 FCFA",
+    "prix_fcfa": 5000,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "*412*4*{numero}*1*8*1*35427#"
+  },
+  {
+    "operateur": "moov",
+    "categorie": "catalogue_fichier",
+    "nom": "150 Mo — 1 jour — 150 FCFA",
+    "prix_fcfa": 150,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "*412*2*{numero}*1*1*1*35427#"
+  },
+  {
+    "operateur": "moov",
+    "categorie": "catalogue_fichier",
+    "nom": "220 Mo — 2 jours — 200 FCFA",
+    "prix_fcfa": 200,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "*412*2*{numero}*1*2*1*35427#"
+  },
+  {
+    "operateur": "moov",
+    "categorie": "catalogue_fichier",
+    "nom": "400 Mo — 2 jours — 300 FCFA",
+    "prix_fcfa": 300,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "*412*2*{numero}*1*3*1*35427#"
+  },
+  {
+    "operateur": "moov",
+    "categorie": "catalogue_fichier",
+    "nom": "750 Mo — 3 jours — 500 FCFA",
+    "prix_fcfa": 500,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "*412*2*{numero}*1*4*1*35427#"
+  },
+  {
+    "operateur": "moov",
+    "categorie": "catalogue_fichier",
+    "nom": "1 024 Mo — 7 jours — 750 FCFA",
+    "prix_fcfa": 750,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "*412*2*{numero}*2*1*1*35427#"
+  },
+  {
+    "operateur": "moov",
+    "categorie": "catalogue_fichier",
+    "nom": "1,5 Go — 10 jours — 1 000 FCFA",
+    "prix_fcfa": 1000,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "*412*2*{numero}*2*2*1*35427#"
+  },
+  {
+    "operateur": "moov",
+    "categorie": "catalogue_fichier",
+    "nom": "2,5 Go — 15 jours — 1 500 FCFA",
+    "prix_fcfa": 1500,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "*412*2*{numero}*2*3*1*35427#"
+  },
+  {
+    "operateur": "moov",
+    "categorie": "catalogue_fichier",
+    "nom": "150 Go — 30 jours — 24 000 FCFA",
+    "prix_fcfa": 24000,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "*412*2*{numero}*5*1*1*35427#"
+  },
+  {
+    "operateur": "moov",
+    "categorie": "catalogue_fichier",
+    "nom": "300 Go — 30 jours — 29 000 FCFA",
+    "prix_fcfa": 29000,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "*412*2*{numero}*5*2*1*35427#"
+  },
+  {
+    "operateur": "moov",
+    "categorie": "catalogue_fichier",
+    "nom": "400 Go — 30 jours — 39 000 FCFA",
+    "prix_fcfa": 39000,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "*412*2*{numero}*5*3*1*35427#"
+  },
+  {
+    "operateur": "moov",
+    "categorie": "catalogue_fichier",
+    "nom": "3 Go — 30 jours — 2 000 FCFA",
+    "prix_fcfa": 2000,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "*412*2*{numero}*3*1*1*35427#"
+  },
+  {
+    "operateur": "moov",
+    "categorie": "catalogue_fichier",
+    "nom": "7,4 Go — 30 jours — 4 900 FCFA",
+    "prix_fcfa": 4900,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "*412*2*{numero}*3*2*1*35427#"
+  },
+  {
+    "operateur": "moov",
+    "categorie": "catalogue_fichier",
+    "nom": "20 Go — 30 jours — 9 900 FCFA",
+    "prix_fcfa": 9900,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "*412*2*{numero}*3*3*1*35427#"
+  },
+  {
+    "operateur": "moov",
+    "categorie": "catalogue_fichier",
+    "nom": "30 Go — 30 jours — 14 900 FCFA",
+    "prix_fcfa": 14900,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "*412*2*{numero}*3*4*1*35427#"
+  },
+  {
+    "operateur": "moov",
+    "categorie": "catalogue_fichier",
+    "nom": "45 Go — 30 jours — 19 900 FCFA",
+    "prix_fcfa": 19900,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "*412*2*{numero}*3*5*1*35427#"
+  },
+  {
+    "operateur": "moov",
+    "categorie": "catalogue_fichier",
+    "nom": "Réseaux Sociaux — 200 FCFA — détails à compléter",
+    "prix_fcfa": 200,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "*412*2*{numero}*4*2*1*35427#"
+  },
+  {
+    "operateur": "moov",
+    "categorie": "catalogue_fichier",
+    "nom": "Nuit : 30 min + 2 Go — 200 FCFA — détails/validité à compléter",
+    "prix_fcfa": 200,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "*412*2*{numero}*4*3*1*35427#"
+  },
+  {
+    "operateur": "moov",
+    "categorie": "catalogue_fichier",
+    "nom": "TikTok : 1 Go — 3 jours — 300 FCFA",
+    "prix_fcfa": 300,
+    "validite": null,
+    "type_syntaxe": "simple",
+    "syntaxe_simple": "*412*2*{numero}*4*1*1*35427#"
+  },
+  {
+    "operateur": "orange",
+    "categorie": "transfert_direct",
+    "nom": "Transfert direct Orange",
+    "prix_fcfa": null,
+    "validite": null,
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "#161#",
+      "etapes": [
+        "{numero}",
+        "1",
+        "{montant}",
+        "5522"
+      ]
+    }
+  },
+  {
+    "operateur": "moov",
+    "categorie": "transfert_direct",
+    "nom": "Transfert direct Moov",
+    "prix_fcfa": null,
+    "validite": null,
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*410#",
+      "etapes": [
+        "{numero}",
+        "{montant}",
+        "35427",
+        "1"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "transfert_direct",
+    "nom": "Transfert direct MTN",
+    "prix_fcfa": null,
+    "validite": null,
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "1",
+        "{numero}",
+        "{numero}",
+        "{montant}",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "orange",
+    "categorie": "Forfait Illimité",
+    "nom": "Pass socials illimitéAC 24h",
+    "prix_fcfa": 500,
+    "validite": null,
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "#161#",
+      "etapes": [
+        "{numero}",
+        "6",
+        "1",
+        "1",
+        "5522"
+      ]
+    }
+  },
+  {
+    "operateur": "orange",
+    "categorie": "Forfait Illimité",
+    "nom": "Pass socials illimitéAC 24h",
+    "prix_fcfa": 800,
+    "validite": null,
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "#161#",
+      "etapes": [
+        "{numero}",
+        "6",
+        "1",
+        "2",
+        "5522"
+      ]
+    }
+  },
+  {
+    "operateur": "orange",
+    "categorie": "Forfait Illimité",
+    "nom": "Pass appel illimitéAC 24h",
+    "prix_fcfa": 500,
+    "validite": null,
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "#161#",
+      "etapes": [
+        "{numero}",
+        "6",
+        "2",
+        "1",
+        "5522"
+      ]
+    }
+  },
+  {
+    "operateur": "orange",
+    "categorie": "Forfait KDO",
+    "nom": "50minTR+250Mo",
+    "prix_fcfa": 500,
+    "validite": null,
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "#161#",
+      "etapes": [
+        "{numero}",
+        "8",
+        "1",
+        "5522"
+      ]
+    }
+  },
+  {
+    "operateur": "orange",
+    "categorie": "Forfait KDO",
+    "nom": "1Go+1500points",
+    "prix_fcfa": 500,
+    "validite": null,
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "#161#",
+      "etapes": [
+        "{numero}",
+        "8",
+        "2",
+        "5522"
+      ]
+    }
+  },
+  {
+    "operateur": "orange",
+    "categorie": "Forfait KDO",
+    "nom": "4Go+9000points",
+    "prix_fcfa": 3000,
+    "validite": null,
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "#161#",
+      "etapes": [
+        "{numero}",
+        "8",
+        "3",
+        "5522"
+      ]
+    }
+  },
+  {
+    "operateur": "orange",
+    "categorie": "Forfait surprise",
+    "nom": "1Go",
+    "prix_fcfa": 300,
+    "validite": null,
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "#161#",
+      "etapes": [
+        "{numero}",
+        "10",
+        "1",
+        "5522"
+      ]
+    }
+  },
+  {
+    "operateur": "orange",
+    "categorie": "Forfait surprise",
+    "nom": "90min+1000Mo",
+    "prix_fcfa": 500,
+    "validite": null,
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "#161#",
+      "etapes": [
+        "{numero}",
+        "10",
+        "2",
+        "5522"
+      ]
+    }
+  },
+  {
+    "operateur": "orange",
+    "categorie": "Forfait surprise",
+    "nom": "3Go",
+    "prix_fcfa": 500,
+    "validite": null,
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "#161#",
+      "etapes": [
+        "{numero}",
+        "10",
+        "3",
+        "5522"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Pass internet spécial",
+    "nom": "650Mo",
+    "prix_fcfa": 200,
+    "validite": "1jour",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "8",
+        "{numero}",
+        "1",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Pass internet spécial",
+    "nom": "900Mo",
+    "prix_fcfa": 300,
+    "validite": "1jour",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "8",
+        "{numero}",
+        "2",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Pass internet spécial",
+    "nom": "1.5Go",
+    "prix_fcfa": 500,
+    "validite": "1jour",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "8",
+        "{numero}",
+        "3",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Pass spécial mix",
+    "nom": "1Go+60min",
+    "prix_fcfa": 500,
+    "validite": "2jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "8",
+        "{numero}",
+        "4",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Pass spécial mix",
+    "nom": "1.5Go+60min",
+    "prix_fcfa": 700,
+    "validite": "5jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "8",
+        "{numero}",
+        "5",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Pass spécial mix",
+    "nom": "4Go",
+    "prix_fcfa": 1000,
+    "validite": "7jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "8",
+        "{numero}",
+        "6",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Pass spécial mix",
+    "nom": "5Go",
+    "prix_fcfa": 1500,
+    "validite": "7jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "8",
+        "{numero}",
+        "7",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Pass spécial mix",
+    "nom": "7.5Go",
+    "prix_fcfa": 2500,
+    "validite": "10jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "8",
+        "{numero}",
+        "8",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Pass spécial mix",
+    "nom": "15Go",
+    "prix_fcfa": 5000,
+    "validite": "21jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "8",
+        "{numero}",
+        "10",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Forfait Free plus",
+    "nom": "Forfait Free plus",
+    "prix_fcfa": 200,
+    "validite": "1jour",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "2",
+        "1",
+        "{numero}",
+        "1",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Forfait Free plus",
+    "nom": "Forfait Free plus",
+    "prix_fcfa": 300,
+    "validite": "2jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "2",
+        "1",
+        "{numero}",
+        "2",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Forfait Free plus",
+    "nom": "Forfait Free plus",
+    "prix_fcfa": 500,
+    "validite": "5jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "2",
+        "1",
+        "{numero}",
+        "3",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Forfait Free plus",
+    "nom": "Forfait Free plus",
+    "prix_fcfa": 700,
+    "validite": "5jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "2",
+        "1",
+        "{numero}",
+        "4",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Forfait Free plus",
+    "nom": "Forfait Free plus",
+    "prix_fcfa": 1000,
+    "validite": "10jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "2",
+        "1",
+        "{numero}",
+        "5",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Forfait Free plus",
+    "nom": "Forfait Free plus",
+    "prix_fcfa": 1500,
+    "validite": "15jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "2",
+        "1",
+        "{numero}",
+        "6",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Forfait Free plus",
+    "nom": "Forfait Free plus",
+    "prix_fcfa": 2500,
+    "validite": "30jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "2",
+        "2",
+        "{numero}",
+        "1",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Forfait internet",
+    "nom": "220Mo",
+    "prix_fcfa": null,
+    "validite": "2jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "3",
+        "1",
+        "{numero}",
+        "1",
+        "51999"
+      ]
+    },
+    "actif": false,
+    "statut_verification": "a_tester"
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Forfait internet",
+    "nom": "400Mo",
+    "prix_fcfa": null,
+    "validite": "2jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "3",
+        "1",
+        "{numero}",
+        "3",
+        "51999"
+      ]
+    },
+    "actif": false,
+    "statut_verification": "a_tester"
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Forfait internet",
+    "nom": "450Mo",
+    "prix_fcfa": null,
+    "validite": "3jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "3",
+        "1",
+        "{numero}",
+        "4",
+        "51999"
+      ]
+    },
+    "actif": false,
+    "statut_verification": "a_tester"
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Forfait internet",
+    "nom": "750Mo",
+    "prix_fcfa": null,
+    "validite": "3jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "3",
+        "1",
+        "{numero}",
+        "6",
+        "51999"
+      ]
+    },
+    "actif": false,
+    "statut_verification": "a_tester"
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Forfait internet",
+    "nom": "1.5Go",
+    "prix_fcfa": null,
+    "validite": "5jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "3",
+        "1",
+        "{numero}",
+        "7",
+        "51999"
+      ]
+    },
+    "actif": false,
+    "statut_verification": "a_tester"
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Forfait internet",
+    "nom": "2.5Go",
+    "prix_fcfa": null,
+    "validite": "10jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "3",
+        "1",
+        "{numero}",
+        "8",
+        "51999"
+      ]
+    },
+    "actif": false,
+    "statut_verification": "a_tester"
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Forfait internet",
+    "nom": "3Go",
+    "prix_fcfa": null,
+    "validite": "30jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "3",
+        "2",
+        "{numero}",
+        "1",
+        "51999"
+      ]
+    },
+    "actif": false,
+    "statut_verification": "a_tester"
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Forfait internet",
+    "nom": "3.7Go",
+    "prix_fcfa": null,
+    "validite": "30jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "3",
+        "2",
+        "{numero}",
+        "2",
+        "51999"
+      ]
+    },
+    "actif": false,
+    "statut_verification": "a_tester"
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Forfait internet",
+    "nom": "7.4Go",
+    "prix_fcfa": null,
+    "validite": "30jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "3",
+        "3",
+        "{numero}",
+        "1",
+        "51999"
+      ]
+    },
+    "actif": false,
+    "statut_verification": "a_tester"
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Forfait internet",
+    "nom": "20Go",
+    "prix_fcfa": null,
+    "validite": "30jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "3",
+        "3",
+        "{numero}",
+        "2",
+        "51999"
+      ]
+    },
+    "actif": false,
+    "statut_verification": "a_tester"
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Forfait internet",
+    "nom": "30Go",
+    "prix_fcfa": null,
+    "validite": "30jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "3",
+        "4",
+        "{numero}",
+        "1",
+        "51999"
+      ]
+    },
+    "actif": false,
+    "statut_verification": "a_tester"
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Forfait internet",
+    "nom": "45Go",
+    "prix_fcfa": null,
+    "validite": "30jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "3",
+        "2",
+        "{numero}",
+        "2",
+        "51999"
+      ]
+    },
+    "actif": false,
+    "statut_verification": "a_tester"
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Forfait appel spécial",
+    "nom": "20min",
+    "prix_fcfa": 200,
+    "validite": "2jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "6",
+        "{numero}",
+        "1",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Forfait appel spécial",
+    "nom": "35min",
+    "prix_fcfa": 300,
+    "validite": "2jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "6",
+        "{numero}",
+        "2",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Forfait appel spécial",
+    "nom": "120min",
+    "prix_fcfa": 500,
+    "validite": "5jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "6",
+        "{numero}",
+        "3",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Forfait appel spécial",
+    "nom": "140min",
+    "prix_fcfa": 1000,
+    "validite": "10jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "6",
+        "{numero}",
+        "4",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Forfait appel spécial",
+    "nom": "210min",
+    "prix_fcfa": 1500,
+    "validite": "15jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "6",
+        "{numero}",
+        "5",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Forfait appel spécial",
+    "nom": "280min",
+    "prix_fcfa": 2000,
+    "validite": "15jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "6",
+        "{numero}",
+        "6",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Forfait appel spécial",
+    "nom": "400min",
+    "prix_fcfa": 3000,
+    "validite": "30jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "6",
+        "{numero}",
+        "7",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Forfait appel spécial",
+    "nom": "700min",
+    "prix_fcfa": 5000,
+    "validite": "30jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "6",
+        "{numero}",
+        "8",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Forfait illimité",
+    "nom": "Forfait illimité",
+    "prix_fcfa": 500,
+    "validite": "1jour",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "11",
+        "1",
+        "{numero}",
+        "1",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Forfait illimité",
+    "nom": "Forfait illimité",
+    "prix_fcfa": 1000,
+    "validite": "3jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "11",
+        "1",
+        "{numero}",
+        "2",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Forfait illimité",
+    "nom": "Forfait illimité",
+    "prix_fcfa": 1500,
+    "validite": "3jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "11",
+        "2",
+        "{numero}",
+        "1",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Forfait illimité",
+    "nom": "Forfait illimité",
+    "prix_fcfa": 2700,
+    "validite": "3jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "11",
+        "2",
+        "{numero}",
+        "2",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Forfait illimité",
+    "nom": "Forfait illimité",
+    "prix_fcfa": 3000,
+    "validite": "7jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "11",
+        "2",
+        "{numero}",
+        "3",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Forfait illimité",
+    "nom": "Forfait illimité",
+    "prix_fcfa": 3000,
+    "validite": "7jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "11",
+        "2",
+        "{numero}",
+        "4",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Forfait illimité",
+    "nom": "Forfait illimité",
+    "prix_fcfa": 5500,
+    "validite": "7jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "11",
+        "3",
+        "{numero}",
+        "1",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Forfait illimité",
+    "nom": "Forfait illimité",
+    "prix_fcfa": 6000,
+    "validite": "15jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "11",
+        "3",
+        "{numero}",
+        "2",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Forfait illimité",
+    "nom": "Forfait illimité",
+    "prix_fcfa": 10000,
+    "validite": "15jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "11",
+        "4",
+        "{numero}",
+        "1",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Forfait illimité",
+    "nom": "Forfait illimité",
+    "prix_fcfa": 10000,
+    "validite": "30jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "11",
+        "4",
+        "{numero}",
+        "2",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Forfait illimité",
+    "nom": "Forfait illimité",
+    "prix_fcfa": 11000,
+    "validite": "30jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "11",
+        "4",
+        "{numero}",
+        "3",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Forfait illimité",
+    "nom": "Forfait illimité",
+    "prix_fcfa": 15000,
+    "validite": "30jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "11",
+        "5",
+        "{numero}",
+        "1",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Forfait illimité",
+    "nom": "Forfait illimité",
+    "prix_fcfa": 20000,
+    "validite": "30jours",
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "11",
+        "5",
+        "{numero}",
+        "2",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Pass tiktok",
+    "nom": "1Go",
+    "prix_fcfa": 300,
+    "validite": null,
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "13",
+        "{numero}",
+        "1",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Pass sms",
+    "nom": "50sms",
+    "prix_fcfa": 100,
+    "validite": null,
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "14",
+        "{numero}",
+        "1",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Pass sms",
+    "nom": "80sms",
+    "prix_fcfa": 125,
+    "validite": null,
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "14",
+        "{numero}",
+        "2",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Pass sms",
+    "nom": "110sms",
+    "prix_fcfa": 150,
+    "validite": null,
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "14",
+        "{numero}",
+        "3",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Pass sms",
+    "nom": "200sms",
+    "prix_fcfa": 200,
+    "validite": null,
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "14",
+        "{numero}",
+        "4",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Pass sms",
+    "nom": "550sms",
+    "prix_fcfa": 350,
+    "validite": null,
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "14",
+        "{numero}",
+        "5",
+        "51999"
+      ]
+    }
+  },
+  {
+    "operateur": "mtn",
+    "categorie": "Pass sms",
+    "nom": "1000sms",
+    "prix_fcfa": 500,
+    "validite": null,
+    "type_syntaxe": "sequence",
+    "sequence": {
+      "code_initial": "*133#",
+      "etapes": [
+        "6",
+        "14",
+        "{numero}",
+        "6",
+        "51999"
+      ]
+    }
+  }
+]

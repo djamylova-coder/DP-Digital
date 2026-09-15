@@ -1,0 +1,2 @@
+import {NextResponse} from 'next/server'; import {cookies} from 'next/headers'; import {prisma} from '@/lib/prisma'; import {SESSION_COOKIE} from '@/lib/auth';
+export async function POST(){const c=await cookies();const token=c.get(SESSION_COOKIE)?.value;if(token)await prisma.session.updateMany({where:{jeton:token,dateRevocation:null},data:{dateRevocation:new Date()}});const r=NextResponse.json({ok:true});r.cookies.set(SESSION_COOKIE,'',{httpOnly:true,expires:new Date(0),path:'/'});return r}

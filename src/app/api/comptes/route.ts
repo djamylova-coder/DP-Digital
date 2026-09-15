@@ -1,0 +1,2 @@
+import {NextResponse} from 'next/server';import {prisma} from '@/lib/prisma';import {requireAdmin} from '@/lib/api-auth';
+export async function GET(req:Request){const a=await requireAdmin();if(a.response)return a.response;const famille=new URL(req.url).searchParams.get('famille') as any||undefined;const rows=await prisma.compte.findMany({where:{famille},select:{id:true,famille:true,actif:true,dateCreation:true,dateDerniereConnexion:true}});return NextResponse.json(rows)}

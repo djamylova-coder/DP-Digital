@@ -1,0 +1,2 @@
+import {NextResponse} from 'next/server';import {prisma} from '@/lib/prisma';import {requireAdmin} from '@/lib/api-auth';
+export async function GET(_:Request,{params}:{params:Promise<{id:string}>}){const a=await requireAdmin();if(a.response)return a.response;const {id}=await params;const row=await prisma.commande.findUnique({where:{id},include:{forfait:true,appareil:true,notifications:true,audits:{orderBy:{dateCreation:'asc'}}}});return row?NextResponse.json(row):NextResponse.json({message:'Commande introuvable'},{status:404})}
