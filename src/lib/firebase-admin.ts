@@ -46,3 +46,10 @@ export async function publishCommandToDevice(input: {
     createdAt: new Date().toISOString(),
   });
 }
+
+export async function publishPaymentVerificationToDevice(input: { deviceId: string; requestId: string; commandId: string; montantFcfa: number }) {
+  const db = firebaseDatabase();
+  await db.ref(`dp-digital/payment-verification/${input.deviceId}/${input.requestId}`).set({
+    requestId: input.requestId, commandId: input.commandId, montantFcfa: input.montantFcfa, createdAt: new Date().toISOString(),
+  });
+}

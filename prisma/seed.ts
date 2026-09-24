@@ -34,8 +34,27 @@ async function main(){
     });
   }
 
-  for (const [id,nom,operateur] of [['orange','Serveur Orange','orange'],['moov','Serveur Moov','moov'],['mtn','Serveur MTN','mtn']] as const) {
-    await prisma.appareil.upsert({where:{id},update:{nom,operateur},create:{id,nom,operateur}});
+  const serverConfigs = [
+    ['orange','Serveur Orange','SERVER_ORANGE_CODE'],
+    ['moov','Serveur Moov','SERVER_MOOV_CODE'],
+    ['mtn','Serveur MTN','SERVER_MTN_CODE'],
+  ] as const;
+  for (const [id, nom, envName] of serverConfigs) {
+    const operateur = id;
+    const code = process.env[envName];
+    if (!code) { console.warn(`${envName} absent : compte serveur ${operateur} non initialisé.`); continue; }
+    const compteId = `server-${operateur}`;
+    const hash = await bcrypt.hash(code, 12);
+    const compte = await prisma.compte.upsert({
+      where: { id: compteId },
+      update: { codeHache: hash, famille: Famille.serveur, actif: true },
+      create: { id: compteId, famille: Famille.serveur, codeHache: hash },
+    });
+    await prisma.appareil.upsert({
+      where: { id },
+      update: { nom, operateur, compteId: compte.id, actif: true },
+      create: { id, nom, operateur, compteId: compte.id },
+    });
   }
 }
 

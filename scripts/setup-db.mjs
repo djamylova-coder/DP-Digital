@@ -53,6 +53,18 @@ async function main() {
     console.log('✔ Tables déjà présentes, migration ignorée');
   }
 
+  // 1b. Règle « une seule commande active par serveur » (idempotente, sans effet si déjà présente)
+  try {
+    const guardSql = readFileSync(
+      join(root, 'prisma/migrations/20260924000000_one_active_command_per_device/migration.sql'),
+      'utf8'
+    );
+    await client.query(guardSql);
+    console.log('✔ Règle « une commande active par serveur » en place');
+  } catch (err) {
+    console.error('⚠ Règle anti-doublon non appliquée (commandes actives en double ?) :', err.message);
+  }
+
   // 2. Compte admin
   const adminCode = process.env.ADMIN_INITIAL_CODE;
   if (adminCode) {

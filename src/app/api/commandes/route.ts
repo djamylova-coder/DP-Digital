@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 import { requireAdmin } from '@/lib/api-auth';
 import { z } from 'zod';
+import { Prisma } from '@prisma/client';
 import { encryptSecret, maskPhone } from '@/lib/secret-data';
 
 const createSchema = z.object({
@@ -33,10 +34,17 @@ export async function POST(req: Request) {
   const forfait = await prisma.forfait.findUnique({ where: { id: b.forfaitId } });
   if (!forfait || !forfait.actif) return NextResponse.json({ message: 'Forfait indisponible' }, { status: 409 });
   if (forfait.operateur !== b.operateur || forfait.prixFcfa !== b.montantFcfa) return NextResponse.json({ message: 'Forfait et montant incohérents' }, { status: 409 });
-  const row = await prisma.$transaction(async tx => {
-    const created = await tx.commande.create({ data: { reference: b.reference, cleIdempotence: b.cleIdempotence, operateur: b.operateur, numeroMasque, numeroChiffre, forfaitId: b.forfaitId, montantFcfa: b.montantFcfa, appareilId: b.appareilId || null } });
-    await tx.audit.create({ data: { compteId: a.session.compteId, commandeId: created.id, action: 'CREATION_COMMANDE', details: JSON.stringify({ reference: b.reference }) } });
-    return created;
-  });
-  return NextResponse.json({ ok: true, duplicate: false, commande: row }, { status: 201 });
+  try {
+    const row = await prisma.$transaction(async tx => {
+      const created = await tx.commande.create({ data: { reference: b.reference, cleIdempotence: b.cleIdempotence, operateur: b.operateur, numeroMasque, numeroChiffre, forfaitId: b.forfaitId, montantFcfa: b.montantFcfa, appareilId: b.appareilId || null } });
+      await tx.audit.create({ data: { compteId: a.session.compteId, commandeId: created.id, action: 'CREATION_COMMANDE', details: JSON.stringify({ reference: b.reference }) } });
+      return created;
+    });
+    return NextResponse.json({ ok: true, duplicate: false, commande: row }, { status: 201 });
+  } catch (e) {
+    if (e instanceof Prisma.PrismaClientKnownRequestError && e.code === 'P2002') {
+      return NextResponse.json({ message: 'Conflit : commande en double ou serveur déjà occupé' }, { status: 409 });
+    }
+    throw e;
+  }
 }
