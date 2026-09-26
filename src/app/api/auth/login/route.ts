@@ -20,8 +20,8 @@ export async function POST(req: Request) {
       await tx.$executeRaw`SELECT pg_advisory_xact_lock(hashtext('dp-digital-admin-login'))`;
       const admin = await tx.compte.findFirst({ where: { famille: 'administrateur' } });
       if (!admin || !admin.actif || !(await bcrypt.compare(code, admin.codeHache))) return { kind: 'bad' as const };
-      const active = await tx.session.findFirst({ where: { compteId: admin.id, dateRevocation: null, dateExpiration: { gt: new Date() } } });
-      if (active) return { kind: 'active' as const };
+      // Règle "un seul admin connecté à la fois" désactivée : plusieurs sessions
+      // admin actives peuvent désormais coexister pour ce compte.
       const token = newToken(); const expires = new Date(Date.now() + 12 * 60 * 60 * 1000);
       await tx.session.create({ data: { compteId: admin.id, jeton: token, dateExpiration: expires } });
       await tx.compte.update({ where: { id: admin.id }, data: { dateDerniereConnexion: new Date() } });
