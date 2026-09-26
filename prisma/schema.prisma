@@ -49,6 +49,8 @@ model Compte {
   id                    String      @id @default(cuid())
   famille               Famille
   codeHache             String
+  nom                   String?
+  codeClient            String?     @unique
   actif                 Boolean     @default(true)
   dateCreation          DateTime    @default(now())
   dateDerniereConnexion DateTime?
