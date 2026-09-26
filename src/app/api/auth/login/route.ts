@@ -28,7 +28,6 @@ export async function POST(req: Request) {
       return { kind: 'ok' as const, token, expires };
     });
     if (result.kind === 'bad') { await registerLoginFailure(key); return NextResponse.json({ message: 'Accès refusé' }, { status: 401 }); }
-    if (result.kind === 'active') return NextResponse.json({ message: 'Administrateur déjà connecté' }, { status: 409 });
     await clearLoginRateLimit(key);
     const res = NextResponse.json({ ok: true });
     res.cookies.set(SESSION_COOKIE, result.token, { httpOnly: true, secure: process.env.NODE_ENV === 'production', sameSite: 'strict', expires: result.expires, path: '/' });
