@@ -3,6 +3,8 @@ import { prisma } from '@/lib/prisma';
 import { requireMobileUser } from '@/lib/mobile-auth';
 
 const SERVER_FRESHNESS_MS = 2 * 60 * 1000;
+// Une commande créée mais jamais payée ne doit pas bloquer l'opérateur indéfiniment.
+const ORDER_PAYMENT_EXPIRATION_MS = 10 * 60 * 1000;
 
 export async function POST(req: Request) {
   const auth = await requireMobileUser(req);
@@ -21,6 +23,17 @@ export async function POST(req: Request) {
     orderBy: { derniereActivite: 'desc' },
   });
   if (!appareil) return NextResponse.json({ available: false, reason: 'SERVEUR_ABSENT' });
+
+  // Libère automatiquement l'appareil des commandes en attente de paiement trop anciennes
+  // (client qui ne paie jamais / n'envoie jamais de capture) avant de vérifier l'occupation.
+  await prisma.commande.updateMany({
+    where: {
+      appareilId: appareil.id,
+      etat: 'attente_paiement',
+      dateCreation: { lt: new Date(Date.now() - ORDER_PAYMENT_EXPIRATION_MS) },
+    },
+    data: { etat: 'echec', failureCode: 'EXPIREE_SANS_PAIEMENT' },
+  });
 
   const busy = await prisma.commande.findFirst({
     where: { appareilId: appareil.id, etat: { in: ['attente_paiement', 'attente_ussd', 'en_cours'] } },
