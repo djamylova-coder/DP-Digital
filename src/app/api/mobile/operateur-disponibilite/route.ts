@@ -35,6 +35,19 @@ export async function POST(req: Request) {
     data: { etat: 'echec', failureCode: 'EXPIREE_SANS_PAIEMENT' },
   });
 
+  // Idem pour une commande "en_cours" dont le verrou d'exécution a expiré sans résultat
+  // renvoyé par le relais (crash, coupure réseau, service d'accessibilité indisponible...).
+  // On ne sait pas si l'USSD est réellement passé : direction traitement manuel, jamais échec
+  // silencieux ni succès automatique.
+  await prisma.commande.updateMany({
+    where: {
+      appareilId: appareil.id,
+      etat: 'en_cours',
+      leaseExpiresAt: { lt: new Date() },
+    },
+    data: { etat: 'traitement_manuel', failureCode: 'VERROU_EXPIRE_SANS_RESULTAT' },
+  });
+
   const busy = await prisma.commande.findFirst({
     where: { appareilId: appareil.id, etat: { in: ['attente_paiement', 'attente_ussd', 'en_cours'] } },
     select: { id: true },
